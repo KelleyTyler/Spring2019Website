@@ -1,0 +1,363 @@
+
+
+header
+{
+
+	margin:0.4em;
+	padding: 0.2em;
+	
+}
+header.thing1
+{
+	border:0.2em solid black;
+	min-height:105px;
+	background-color:#C5CCBC;
+	font-family:helvetica;
+	font-size:1em;
+	right:3em;
+}
+
+body
+{
+	background-color:#E9F2DF;
+	overflow:auto;
+}
+section
+{
+	border:0.2em solid black;
+	padding: 0.8em;
+	margin:0.3em;
+	background-color:#EEEEEE;
+	float:center;
+	overflow:auto;
+	font-family:helvetica;
+	font-size:1em;
+}
+
+footer
+{
+	border:0.2em solid black;
+	margin:0.4em;
+	overflow:auto;
+	background-color:#C5CCBC;
+	clear:left;
+}
+
+
+/*BELOW IS SVG RELATED STUFF-----------------------------------------------------------------------------*/
+svg
+{
+	background-color:none;
+	margin:0;
+	border:1px solid black; 
+}
+#homeButton
+{
+background-color:lightgrey;
+
+}
+#pgTitle
+{
+font-family:helvetica;
+font-size:2.4em;
+/*fill: black;*/
+color: blue;
+}
+
+#menulinkBoxText
+{
+	font-family: helvetica;
+	font-size:30px;
+	background-color:lightblue;
+}
+
+/*------------------------END OF SVG RELATED STUFF--------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+/*--------------------------------------------*/
+/*---------------------------------------GALLERY1 RELATED STUFF-------------------------------------------------------*/
+article.gallery
+{
+	background-color:#EEEEEE;
+	overflow:auto;
+	justify-content:center;
+	height:auto;
+	display:block;
+}
+img.g1Thumbs
+{
+	max-width: 100%;
+	max-height:25em;
+	width:auto;
+	height:auto;
+	display:block;
+	margin:auto;
+	justify-content:center;
+}
+img.g1Thumbs:hover {
+  box-shadow: 0 0 .02em, 0.1em, blue;
+}
+figcaption.imgCap
+{
+	border:1px solid blue;
+	vertical-align:bottom;
+	display:inline-block;
+	max-width:100%;
+	text-align:center;
+	padding:0.02em;
+	font-size:1em;
+	display:block;
+	overflow:auto;
+}
+figure.g1Figs
+{
+	max-width:100%;
+	max-height:100%;
+	height:auto;
+	width:auto;
+	overflow:auto;
+	justify-content:center;
+}
+div.imgDesc
+{
+	border:0.03em solid black;
+	margin:0.25em;
+	padding:0.01em;
+	height:auto;
+	width:auto;
+	max-width:30em;
+	display:blcok;
+	overflow:auto;
+	float:left;
+	justify-content:center;
+}
+/*end of GALLERY1 RELATED STUFF------------------------------------------------------------------*/
+/*GALLERY2-RELATED-------------------------------------------------------------------------------*/
+div.gifBlock{
+	border:0.01em solid black;
+	margin:0.1em;
+	float:left;
+	min-width: 20em;
+	min-height:20em;
+	overflow:auto;
+	display:block;
+	padding:0.02em;
+	max-width:30em;
+	max-height:35em;
+	height:auto;
+	width:auto;
+	justify-content:center;
+}
+figcaption.gifCap
+{
+	border:1px solid blue;
+	vertical-align:bottom;
+	display:inline-block;
+	max-width:100%;
+	text-align:center;
+	padding:0.02em;
+	font-size:1em;
+	display:block;
+	overflow:auto;
+	
+}
+
+figure.gifFig
+{
+	border:1px solid black;
+	margin:0.1em;
+	max-width: 100%;
+	max-height:100%;
+	display:block;
+	height:auto;
+	overflow:auto;
+	justify-content:center;
+}
+
+/*----------------------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------------*/
+/*this is mostly concerned with footer-related stuff*/
+p.bottomLinks
+{
+	padding: 0.1em;
+	border:.1em dashed black;
+	float: right;
+	margin:0.1em;
+}
+/*-----End of Footer Related Stuff*/
+/*here I try and work out how to get the title/subtitle things working properly*/
+h1.title{
+font:hevetica;
+left:auto;
+right:auto;
+bottom:0;
+}
+h6.subtitle
+{
+	font:helvetica;
+	left:auto;
+	right:auto;
+	
+}
+div.pageTitle{
+
+	padding:0em;
+	margin:0em;
+	border:0.01em solid black;
+	left:auto;
+	right:auto;
+	font:helvetica;
+	text-align:center;
+}
+/*------------------------End Of Heading/Title Related Stuff---------------------------*/
+/*below is button related Stuff; with a lot of assistance gotten from w3Schools.com's howto section, I've augmented it a bit though in order to suit my different requirements*/
+/*dropdowns*/
+.dropbtn{
+	background-color:white;
+	color:black;
+	padding: 0em;
+	font-size:0;
+	border:1px solid black;
+}
+/*divContainer*/
+.d_down{
+	position:relative;
+	display:inline-block;
+	float:left;
+}
+/*dropdown Content*/
+.dropdown-cont{
+display: none;
+position: absolute;
+background-color: lightblue;
+min-width:98px;
+padding:0em;
+/*box-shadow:0px 8px 16px 0px rbga (0,0,0,0.2);*/
+z-index:0;
+border:1px solid black;
+}
+/*links*/
+.dropdown-cont a {
+color:black;
+padding:0em 0em 0em 0em;
+text-decoration: none;
+display:block;
+font-size:0;
+border:0.1px solid black;
+
+}
+
+/*this shows the dropdown when hovering*/
+.d_down:hover .dropdown-cont{display:block;}
+/*changes color when mouse hovers */
+.dropdown-cont a:hover {background-color:lightgrey;}
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.d_down:hover .dropbtn {background-color: white;}*/
+
+
+
+
+
+
+
+nav ul{
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	display:flex;
+	justify-content: center;
+}
+nav ul li a{
+
+	display:block;
+	border: 1px solid;
+	border-radius: .5em;
+	padding:.5em 1em;
+	margin: .5em;
+}
+container{
+display: grid;
+grid-template:rows auto auto 5em;
+grid-template:columns minmax(25em, 1fr) 16em;
+grid-template-areas:
+"banner"
+"main"
+"footer";
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-with:400px)
+		 {
+			nav ul li
+			{
+				flex:none;
+			}
+			nav ul{
+			justify-content:center;
+			}
+			
+		}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen and (min-width:480px)
+		{
+			main img{
+			float:left;
+			margin:0 1em 1em 0;
+			}
+		}
+/*-----------------------------------------------------------------------------------------------------------------------------------------------------------------------*/	
+@media screen (min-width:600px){
+		header p{
+			display: block;
+			margin-top: -1.5em;
+			font-family: Georgia, serif;
+			font-style:italic;
+			font-size:1.2em;
+			}
+		main, h2, h3{
+			font-family: 'Stint Ultra Expanded', Georgia, serif;
+		}
+		h2,h3{
+			font-weight:bold;
+		}
+		main
+		{
+			line-height:1.8em;
+			padding:1em;
+			border:double 5em #EADDC4;
+			boder-radius: 25px;
+			margin: 2.5%;
+		}
+
+		}
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media screen (min-width:940px){
+		#container{
+			display:grid;
+			grid-template-rows: auto min-height 5em;
+			grid-template-columns: minmax(25em, 1fr) 16em;
+			grid-template-areas: 
+			"banner "
+			"main "
+			"footer "
+			max-width: 1200px;
+			margin: 0 auto;
+			position: relative;
+		}
+		header{
+			grid-area: banner;
+		}
+		h2,h3{
+			margin:2.5em;
+			float:left;
+		}
+		p.more{
+			margin-radius:6em;
+		}
+		main,p,h3{
+			grid-area: main;
+		}
+		footer{
+			grid-area: footer;
+		}
+		
+}
